@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.99 11.55">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #335a9b;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .75px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M1.46,1.27h8.69c.6,0,1.09.49,1.09,1.09v6.52c0,.6-.49,1.09-1.09,1.09H1.46c-.6,0-1.09-.49-1.09-1.09V2.36c0-.6.49-1.09,1.09-1.09Z"/>
+  <polyline class="cls-1" points="11.24 2.36 5.81 6.16 .38 2.36"/>
+</svg>

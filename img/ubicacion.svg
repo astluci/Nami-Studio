@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.99 11.55">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #345b9c;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .75px;
+      }
+    </style>
+  </defs>
+  <g id="Workspace">
+    <circle class="cls-1" cx="5.81" cy="4.56" r="1.47"/>
+    <path class="cls-1" d="M9.49,4.56c.01.62-.15,1.23-.46,1.77-.75,1.25-3.22,4.86-3.22,4.86,0,0-2.47-3.61-3.23-4.85-.31-.54-.46-1.15-.45-1.77,0-2.03,1.65-3.68,3.68-3.68s3.68,1.65,3.68,3.68Z"/>
+  </g>
+</svg>

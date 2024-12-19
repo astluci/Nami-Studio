@@ -1,0 +1,582 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* ===== Estilos header ===== */
+a{
+    color: white;
+    text-decoration: none;
+
+}
+ul{
+    list-style-type: none;
+}
+body{
+    position: relative;
+    background: linear-gradient(rgba(255, 255, 255, 0.822), rgba(255, 255, 255, 0.822)), 
+                url(img/290123047451517\ [Convertido].svg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    z-index: -1;
+}
+#barra{
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0 16px;
+    padding-bottom: 30px;
+    margin-top: -20px;
+
+}
+
+nav{
+    background-color: #b1cffd;
+
+}
+ul {
+    margin: auto;;
+    color: #F6FAFF;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45%;
+    margin-top: -100px;
+
+}
+#inicio{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    width: 120px;
+    margin: auto;
+    padding-top:12px;
+    padding-left: 36px;
+    padding-bottom: 12px;
+}
+#somos{
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        width: 200px;
+        margin: auto;
+        padding-top:12px; 
+        padding-left: 30px;
+        padding-bottom: 12px;
+}
+#servicios{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    width: 140px;
+    margin: auto;
+    padding-top:12px; 
+    padding-left: 30px;
+    padding-bottom: 12px;
+}
+#contactos{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    width: 140px;
+    margin: auto;
+    padding-top:12px; 
+    padding-left: 28px;
+    padding-bottom: 12px;
+}
+
+
+
+/* ===== Estilos ventana 1 ===== */
+
+
+
+
+#ventana_1 #oficina_principal{
+    width: 100%;
+    margin-top: -40px;
+
+}
+#ventana_1 h1 #contacto{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+#ventana_1 section h2{
+    margin: auto;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #335A9A;
+    width: 600px;
+    padding-left: 25px;
+    text-justify: auto;
+    margin-top: 70px;
+    
+
+}
+#ventana_1 .btn{
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    position: absolute;
+    top: 27%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    padding: 14px 28px;
+    background-color: #B9D2F7; 
+    color: #4577c2;
+    border: none;
+    cursor: pointer;
+    font-size: 28px;
+    border-radius: 15px;
+    z-index: 10;
+
+}
+#ventana_1 .cont-img{
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+}
+
+#ventana_1 .fotos{
+    margin-top: 50px;
+}
+#ventana_1 figure{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin: 0;
+}
+#ventana_1 .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#ventana_1 .gallery-item {
+    position: relative;
+    overflow: hidden;
+    width: 427px;
+    height: 427px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(34, 40, 48, 0.1);
+}
+
+#ventana_1 .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+#ventana_1 .gallery-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: #fff;
+    font-size: 18px;
+    opacity: 0; 
+    transition: opacity 0.4s ease; 
+    text-align: center;
+}
+
+
+#ventana_1 .gallery-item:hover img {
+    transform: scale(1.1); 
+}
+
+#ventana_1 .gallery-item:hover .overlay {
+    opacity: 1; 
+}
+
+
+#ventana_1 footer{ 
+    background-color: #b1cffd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #335A9A;
+    margin-top: 40px;
+}
+
+#ventana_1 .pie{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+#ventana_1 .logoss{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+
+/* ===== Estilos para Ventana 2 ===== */
+
+
+
+
+
+#ventana_2 .info{
+    width: 1200px;
+    margin: auto;
+    color: #335A9A;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    margin-top: -35px;
+
+    
+}
+#ventana_2 .info h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+#ventana_2 .info p{
+    font-size: 25px;
+    font-weight: 300;
+    width: 580px;
+    line-height: 42px;
+}
+#ventana_2 .cuadrado{
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+#ventana_2 footer{ 
+    background-color: #b1cffd;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #335A9A;
+    margin-top: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#ventana_2 .pie{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+#ventana_2 .logoss{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+
+
+
+/* ===== Estilos ventana 3 ===== */
+
+
+
+
+
+
+#ventana_3 .contenedor{ 
+    width: 1200px;
+    margin: auto;
+    margin-top: 70px;
+}
+#ventana_3 h1{
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #335A9A;
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+#ventana_3 figure{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 51vh;
+    margin: 0;
+}
+#ventana_3 .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+}
+
+#ventana_3 .gallery-item {
+    position: relative;
+    overflow: hidden;
+    width: 427px;
+    height: 427px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 6px rgba(34, 40, 48, 0.1);
+}
+
+#ventana_3 .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+#ventana_3 .gallery-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(51, 83, 124, 0.692); 
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    opacity: 0; 
+    transition: opacity 0.4s ease; 
+    text-align: center;
+}
+
+#ventana_3 .gallery-item:hover img {
+    transform: scale(1.1); 
+}
+
+#ventana_3 .gallery-item:hover .overlay {
+    opacity: 1; 
+}
+
+
+
+#ventana_3 footer{ 
+    background-color:#B9D2F7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #335A9A;
+    margin-top: 40px;
+}
+
+#ventana_3 .pie{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+#ventana_3 .logoss{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+
+
+
+/* ===== Estilos ventana 4 ===== */
+
+
+
+
+
+
+
+#ventana_4 .container{
+    width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+#ventana_4 .escribime{
+    margin-left: 50px;
+}
+#ventana_4 .escribime p{
+    width: 500px;   
+}
+
+#ventana_4 li{
+    list-style-type: none;
+}
+#ventana_4 .ol1{
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 80px;
+    margin-left: -30px;
+}
+#ventana_4 .ol2{
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 80px;
+    margin-top: 10px;
+}
+#ventana_4 .redescontacto{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 280px;
+    margin-top: 295px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #335A9A;
+}
+
+#ventana_4 .formulariocontacto {
+    width: 400px;
+    height: 800px;
+    margin-top: -600px;
+    margin-left: 700px;
+}
+
+
+#ventana_4 label {
+    display: block;
+    margin-top: 20px;
+    color: #335A9A;
+    font-weight:600 ;
+}
+
+input,
+textarea {
+    color: rgb(39, 38, 38) !important;
+    padding: 20px !important;
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+}
+
+input:focus,
+textarea:focus {
+    background-color: #6a93d6 !important;
+    color: aliceblue !important;
+    transition: .3s ease-in-out;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #5e6a7a;
+
+    
+}
+
+#apellido,
+#nombres,
+#e-mail,
+#consultas-mensajes {
+    padding: 7px 5px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #335A9A;
+}
+
+#apellido {
+    display: block;
+    width: 100%;
+    margin: auto;
+
+}
+
+#nombres {
+    display: block;
+    width: 100%;
+}
+
+#e-mail {
+    display: block;
+    width: 100%;
+}
+
+#consultas-mensajes {
+    display: block;
+    width: 100%;
+}
+
+#ventana_4 button {
+    width: 150px;
+    display: block;
+    height: 45px;
+    line-height: 30px;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: #b1cffd;
+    color: rgb(255, 255, 255);
+}
+
+#ventana_4 .borrar {
+    margin-left: 170px;
+    margin-top: -45px;
+    background-color: rgb(49, 71, 104);
+}
+
+#ventana_4 .borrar:hover {
+    background-color: rgb(81, 95, 107);
+}
+
+
+
+#ventana_4 footer{ 
+    background-color:#B9D2F7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #335A9A;
+    margin-top: 40px;
+}
+
+#ventana_4 .pie{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+#ventana_4 .logoss{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#ventana_4 .formulariocontacto p {
+    color: #696969;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 35px;
+}
+#ventana_4 .escribe h1{
+    color:#335A9A;
+    font-size: 64px;
+    font-weight: 500;
+}
+#ventana_4 .escribe p{
+    color: #335A9A;
+    font-size: 25px;
+    font-weight: 500;
+}
+#ventana_4 .escribe{
+    width: 800px;
+}
